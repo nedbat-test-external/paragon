@@ -258,7 +258,7 @@ fieldset:disabled a.btn {
       $text-and-border,
       $color-hover,
       $active-background,
-      $active-border,
+      $active-border
     );
     @include button-focus(theme-color($color, "focus"));
   }
